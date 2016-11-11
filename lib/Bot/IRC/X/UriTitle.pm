@@ -23,6 +23,7 @@ sub init {
             my %urls;
             $urls{$1} = 1 while ( $in->{text} =~ m|(https?://\S+)|g );
             $bot->reply( '[ ' . unidecode( title($_) ) . ' ]' ) for ( keys %urls );
+            return;
         },
     );
 }
