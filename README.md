@@ -4,7 +4,7 @@ Bot::IRC::X::UriTitle - Bot::IRC plugin to parse and print URI titles
 
 # VERSION
 
-version 1.01
+version 1.02
 
 [![Build Status](https://travis-ci.org/gryphonshafer/Bot-IRC-X-UriTitle.svg)](https://travis-ci.org/gryphonshafer/Bot-IRC-X-UriTitle)
 [![Coverage Status](https://coveralls.io/repos/gryphonshafer/Bot-IRC-X-UriTitle/badge.png)](https://coveralls.io/r/gryphonshafer/Bot-IRC-X-UriTitle)

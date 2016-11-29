@@ -17,6 +17,8 @@ my %WriteMakefileArgs = (
   "MIN_PERL_VERSION" => "5.006",
   "NAME" => "Bot::IRC::X::UriTitle",
   "PREREQ_PM" => {
+    "LWP::Protocol::https" => 0,
+    "LWP::UserAgent" => 0,
     "Text::Unidecode" => 0,
     "URI::Title" => 0,
     "strict" => 0,
@@ -31,7 +33,7 @@ my %WriteMakefileArgs = (
     "blib" => "1.01",
     "constant" => 0
   },
-  "VERSION" => "1.01",
+  "VERSION" => "1.02",
   "test" => {
     "TESTS" => "t/*.t"
   }
@@ -42,6 +44,8 @@ my %FallbackPrereqs = (
   "File::Spec" => 0,
   "IO::Handle" => 0,
   "IPC::Open3" => 0,
+  "LWP::Protocol::https" => 0,
+  "LWP::UserAgent" => 0,
   "Test::More" => 0,
   "Test::Most" => 0,
   "Text::Unidecode" => 0,

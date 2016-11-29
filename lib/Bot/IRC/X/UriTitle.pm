@@ -4,6 +4,8 @@ package Bot::IRC::X::UriTitle;
 use strict;
 use warnings;
 
+use LWP::UserAgent;
+use LWP::Protocol::https;
 use Text::Unidecode 'unidecode';
 use URI::Title 'title';
 
@@ -22,7 +24,7 @@ sub init {
 
             my %urls;
             $urls{$1} = 1 while ( $in->{text} =~ m|(https?://\S+)|g );
-            $bot->reply( '[ ' . unidecode( title($_) ) . ' ]' ) for ( keys %urls );
+            $bot->reply("[ $_ ]") for ( grep { defined } map { unidecode( title($_) ) } keys %urls );
             return;
         },
     );
