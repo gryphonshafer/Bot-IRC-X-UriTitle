@@ -6,8 +6,8 @@ Bot::IRC::X::UriTitle - Bot::IRC plugin to parse and print URI titles
 
 version 1.03
 
-[![Build Status](https://travis-ci.org/gryphonshafer/Bot-IRC-X-UriTitle.svg)](https://travis-ci.org/gryphonshafer/Bot-IRC-X-UriTitle)
-[![Coverage Status](https://coveralls.io/repos/gryphonshafer/Bot-IRC-X-UriTitle/badge.png)](https://coveralls.io/r/gryphonshafer/Bot-IRC-X-UriTitle)
+[![build](https://github.com/gryphonshafer/Bot-IRC-X-UriTitle/workflows/build/badge.svg)](https://github.com/gryphonshafer/Bot-IRC-X-UriTitle/actions?query=workflow%3Abuild)
+[![codecov](https://codecov.io/gh/gryphonshafer/Bot-IRC-X-UriTitle/graph/badge.svg)](https://codecov.io/gh/gryphonshafer/Bot-IRC-X-UriTitle)
 
 # SYNOPSIS
 
@@ -20,19 +20,17 @@ version 1.03
 
 # DESCRIPTION
 
-This [Bot::IRC](https://metacpan.org/pod/Bot::IRC) plugin makes the bot parse and print URI titles.
+This [Bot::IRC](https://metacpan.org/pod/Bot%3A%3AIRC) plugin makes the bot parse and print URI titles.
 
 # SEE ALSO
 
 You can look for additional information at:
 
-- [Bot::IRC](https://metacpan.org/pod/Bot::IRC)
+- [Bot::IRC](https://metacpan.org/pod/Bot%3A%3AIRC)
 - [GitHub](https://github.com/gryphonshafer/Bot-IRC-X-UriTitle)
-- [CPAN](http://search.cpan.org/dist/Bot-IRC-X-UriTitle)
 - [MetaCPAN](https://metacpan.org/pod/Bot::IRC::X::UriTitle)
-- [AnnoCPAN](http://annocpan.org/dist/Bot-IRC-X-UriTitle)
-- [Travis CI](https://travis-ci.org/gryphonshafer/Bot-IRC-X-UriTitle)
-- [Coveralls](https://coveralls.io/r/gryphonshafer/Bot-IRC-X-UriTitle)
+- [GitHub Actions](https://github.com/gryphonshafer/Bot-IRC-X-UriTitle/actions)
+- [Codecov](https://codecov.io/gh/gryphonshafer/Bot-IRC-X-UriTitle)
 - [CPANTS](http://cpants.cpanauthors.org/dist/Bot-IRC-X-UriTitle)
 - [CPAN Testers](http://www.cpantesters.org/distro/T/Bot-IRC-X-UriTitle.html)
 
@@ -42,7 +40,7 @@ Gryphon Shafer <gryphon@cpan.org>
 
 # COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2018 by Gryphon Shafer.
+This software is copyright (c) 2021 by Gryphon Shafer.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
