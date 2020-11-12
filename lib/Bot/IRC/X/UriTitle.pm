@@ -38,8 +38,8 @@ __END__
 =begin :badges
 
 =for markdown
-[![Build Status](https://travis-ci.org/gryphonshafer/Bot-IRC-X-UriTitle.svg)](https://travis-ci.org/gryphonshafer/Bot-IRC-X-UriTitle)
-[![Coverage Status](https://coveralls.io/repos/gryphonshafer/Bot-IRC-X-UriTitle/badge.png)](https://coveralls.io/r/gryphonshafer/Bot-IRC-X-UriTitle)
+[![build](https://github.com/gryphonshafer/Bot-IRC-X-UriTitle/workflows/build/badge.svg)](https://github.com/gryphonshafer/Bot-IRC-X-UriTitle/actions?query=workflow%3Abuild)
+[![codecov](https://codecov.io/gh/gryphonshafer/Bot-IRC-X-UriTitle/graph/badge.svg)](https://codecov.io/gh/gryphonshafer/Bot-IRC-X-UriTitle)
 
 =end :badges
 
@@ -64,8 +64,8 @@ You can look for additional information at:
 * L<Bot::IRC>
 * L<GitHub|https://github.com/gryphonshafer/Bot-IRC-X-UriTitle>
 * L<MetaCPAN|https://metacpan.org/pod/Bot::IRC::X::UriTitle>
-* L<Travis CI|https://travis-ci.org/gryphonshafer/Bot-IRC-X-UriTitle>
-* L<Coveralls|https://coveralls.io/r/gryphonshafer/Bot-IRC-X-UriTitle>
+* L<GitHub Actions|https://github.com/gryphonshafer/Bot-IRC-X-UriTitle/actions>
+* L<Codecov|https://codecov.io/gh/gryphonshafer/Bot-IRC-X-UriTitle>
 * L<CPANTS|http://cpants.cpanauthors.org/dist/Bot-IRC-X-UriTitle>
 * L<CPAN Testers|http://www.cpantesters.org/distro/T/Bot-IRC-X-UriTitle.html>
 
