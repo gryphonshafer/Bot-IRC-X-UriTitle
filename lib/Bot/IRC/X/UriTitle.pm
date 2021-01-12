@@ -2,8 +2,7 @@ package Bot::IRC::X::UriTitle;
 # ABSTRACT: Bot::IRC plugin to parse and print URI titles
 
 use 5.014;
-use strict;
-use warnings;
+use exact;
 
 use LWP::UserAgent;
 use LWP::Protocol::https;
