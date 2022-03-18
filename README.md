@@ -4,7 +4,7 @@ Bot::IRC::X::UriTitle - Bot::IRC plugin to parse and print URI titles
 
 # VERSION
 
-version 1.04
+version 1.05
 
 [![test](https://github.com/gryphonshafer/Bot-IRC-X-UriTitle/workflows/test/badge.svg)](https://github.com/gryphonshafer/Bot-IRC-X-UriTitle/actions?query=workflow%3Atest)
 [![codecov](https://codecov.io/gh/gryphonshafer/Bot-IRC-X-UriTitle/graph/badge.svg)](https://codecov.io/gh/gryphonshafer/Bot-IRC-X-UriTitle)
@@ -40,7 +40,7 @@ Gryphon Shafer <gryphon@cpan.org>
 
 # COPYRIGHT AND LICENSE
 
-This software is Copyright (c) 2016-2021 by Gryphon Shafer.
+This software is Copyright (c) 2016-2050 by Gryphon Shafer.
 
 This is free software, licensed under:
 
