@@ -1,7 +1,7 @@
 package Bot::IRC::X::UriTitle;
 # ABSTRACT: Bot::IRC plugin to parse and print URI titles
 
-use 5.014;
+use 5.016;
 use exact;
 
 use LWP::UserAgent;
